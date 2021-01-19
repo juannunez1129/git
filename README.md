@@ -1,4 +1,5 @@
 # Git
+<<<<<<< HEAD
 
 * In this exercise, you will understand how to use Git and GitHub, as well as learn the general git work flow @ TEKcamp.
 
@@ -11,6 +12,26 @@ Exercise Pre-reqs :
 ## Exercise Instructions
 
 * Copy the html and css from the following [codepen](https://codepen.io/ayunas-the-scripter/pen/NWRJbKJ) and paste it in the new cloned folder.  Create two files for the html and css, `index.html` , and `index.css`
+=======
+Exercise Objective: 
+* Understanding how to use Git and GitHub, and to learn the general git work flow @ TEKcamp.
+
+Exercise Steps/Instructions:
+1. Download Git and install on your machine.
+
+2. Create a GitHub account
+
+## ********************************
+## Git Instructions
+- [ ] Create a template copy of this repository by clicking : "Use this template"
+- [ ] Name the repository the same name as the master template repository.  
+- [ ] Add your TA as collaborator
+- [ ] Clone YOUR repo to your local computer
+- [ ] For this assignment, you will be following the instructions below:
+## ********************************
+
+* Copy the html file from the prework (Markup Exercise) and paste it in the new cloned folder.  (e.g. index.html)
+>>>>>>> merge-this-branch
 * Create a new file using the command line called notes.txt
 * Add some text to the notes.txt file.
 * Create a new branch called html-branch
@@ -23,6 +44,7 @@ Exercise Pre-reqs :
 * Check the status, add, commit and push your changes to the text-branch.  Make sure you add a descriptive message for your commit.
 * Add 3 additional lorem-ipsum paragraphs into the notes.txt file which should now be on the text-branch.
 * Commit and push your additional changes to the text-branch on GitHub.  Make sure you add a descriptive message for your commit.
+<<<<<<< HEAD
 * On GitHub, verify that the master branch only has the README.md and the data.json file with nothing else.  Verify that the html-branch and the text-branch each have a respective .html and .txt file.
 Submit a pull request for both the html-branch and the text-branch to be merged into master.  Add your TA as a collaborator for both Pull Requests (PR).  
 
@@ -45,3 +67,16 @@ Submit a pull request for both the html-branch and the text-branch to be merged 
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push all of your commits: <code>git push origin `<firstName-lastName>`</code>.
 - [ ] When ready for your TM to review, open a Pull Request (PR) and add your TM as a collaborator.
+=======
+* On GitHub, verify that the master branch only has the README.md file and the data.json file with nothing else.  Verify that the html-branch and the text-branch each have a respective .html and .txt file.
+Submit a pull request for both the html-branch and the text-branch to be merged into master.  Add your TA as a collaborator for both Pull Requests (PR).  
+
+**Bonus Goal: 
+
+* Merge The merge-this-branch into the master branch. If you run into a merge conflict, get rid of the bonus goals bullet on the master branch of the README file and replace it with this bullet. Also, keep all the data from both the merge-this-brarnch and the master branch
+
+3. Submit the exercise in <a href="https://bit.ly/3aKtYAC" target="_blank">TEKsystems Academy</a>
+
+4. Complete the Exercise Evaluation form in <a href="https://bit.ly/2KE32Yw" target="_blank">TEKsystems Academy</a>.
+
+>>>>>>> merge-this-branch
